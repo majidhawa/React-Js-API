@@ -21,7 +21,7 @@ return(
             )): !loading && <h2>No users found</h2>}
     </div>:
     <div className="error">
-        <p>YOu have to  Login</p>
+        <p>Login to view</p>
     </div>
 }
     </>
