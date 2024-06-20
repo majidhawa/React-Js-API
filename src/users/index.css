@@ -1,0 +1,48 @@
+.users-page {
+    padding: 20px;
+    display: flex;
+    gap:5%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 4%;
+  }
+  
+  .users-page h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .users-page .user-card {
+    flex: 0 1 300px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .users-page .user-card img {
+    max-width: 100px;
+    border-radius: 50%;
+  }
+  
+  .users-page .user-card .full-name {
+    font-weight: bold;
+    margin-top: 10px;
+    
+  }
+  
+  .users-page .loading-message {
+    font-style: italic;
+    color: #888;
+  }
+  
+  .users-page .error-message {
+    color: #ff0000;
+    font-weight: bold;
+  }
+  
