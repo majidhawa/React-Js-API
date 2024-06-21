@@ -1,15 +1,9 @@
 {
-
-    "builds": [
-      {
-        "src": "/src",
-        "use": "@vercel/build-utils/serve"
-      }
-    ],
     "rewrites": [
       {
-        "source": "/src/(.*)",
+        "source": "/(.*)",
         "destination": "/src/$1"
       }
     ]
   }
+  
