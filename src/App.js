@@ -1,13 +1,14 @@
 import { useState } from "react";
 import Login from "./Login";
 import Users from "./users";
+import './App.css'
 export const Introduction=({setModalIsOpen})=>{
   const openModel=()=>{
     setModalIsOpen(true)
   }
   return(
     <>
-    <button className="login" onClick={openModel}>Log in</button>
+    <button className="login" onClick={openModel}>Click Me</button>
     </>
   )
 }
